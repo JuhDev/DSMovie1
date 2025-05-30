@@ -1,0 +1,25 @@
+.dsmovie-form-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.dsmovie-form-container {
+    width: calc(100% - 20px);
+}
+
+.dsmovie-form-container {
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-container {
+    font-size: 12px;
+    color: #aaa;
+
+}
+
+.dsmovie-form-container {
+    display: flex;
+    justify-content: center;
+    
+}
