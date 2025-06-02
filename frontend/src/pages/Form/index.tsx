@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import img from 'assets/img/images.jpg';
+import { Link } from 'react-router-dom';
 
 function Form() {
 
@@ -37,7 +38,10 @@ function Form() {
                         <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form>
-                <button className="btn btn-primary dsmovie-btn mt-3">cancelar</button>
+                <Link to="/">
+                 <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                </Link>
+               
             </div>
         </div>
 
